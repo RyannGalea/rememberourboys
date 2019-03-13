@@ -1,0 +1,23 @@
+<div class="wrapper-main">
+  <div class="images">
+    <img src="assets/stone.jpg" alt="">
+    <img class="rip" src="assets/rip.jpg" alt="">
+    <img class="rip" src="assets/Dave_rip.jpg" alt="">
+  </div>
+  <div class="comments">
+    <div class="count">{{thoughts.length}} Comments</div>
+    <ng-container *ngFor="let thought of thoughts">
+      <section *ngIf="thought.comment"> 
+        <h4>{{thought.author || 'Anonymous'}}</h4>
+        <p>{{thought.comment}}</p>
+        <div class="break"></div>
+      </section>
+      <div class="image-wrapper" *ngIf="thought.img">
+        <h4>{{thought.title}}</h4>
+        <img class="rip" [src]="'assets/'+thought.img" alt="">
+      </div>
+    </ng-container>
+  </div>
+  <br>
+  <br>
+</div>

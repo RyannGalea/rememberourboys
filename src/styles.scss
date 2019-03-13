@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Ui Display Regular';
+  src:  url('assets/font/SF-UI-Display-Regular.svg#sf_ui_displayregular') format('svg'),
+        url('assets/font/SF-UI-Display-Regular.woff2') format('woff2'),
+        url('assets/font/SF-UI-Display-Regular.woff') format('woff'),
+        url('assets/font/SF-UI-Display-Regular.otf') format('opentype');
+}
+
+body {
+  font-family: 'Ui Display Regular';
+  background-color: #444444;
+}
+
+.wrapper-main {
+  background-image: url(assets/DAVE_BG.jpg);
+  max-width: 1022px;
+  width: 100%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.rip {
+  border: 10px solid white;
+}
+
+.images {
+  padding-top: 300px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.image-wrapper {
+  // padding: 30px 0;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.comments {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  color: #C9CABA;
+}
+
+.count {
+  float: right;
+}
+
+section p {
+  font-size: 16px;
+  white-space: pre-line;
+}
+
+h4 {
+  color: rgb(234, 235, 220);
+}
+
+.break {
+  height: 1px;
+  background-color: #95978a9e;
+}
