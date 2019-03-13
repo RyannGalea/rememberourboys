@@ -1,15 +1,18 @@
 <div class="wrapper-main">
+
   <div class="images">
     <img src="assets/stone.jpg" alt="">
     <img class="rip" src="assets/rip.jpg" alt="">
     <img class="rip" src="assets/Dave_rip.jpg" alt="">
+    <input class="search" type="text" #search placeholder="Search Comments" [(ngModel)]="searchWord">
+    <div class="info">{{loadedThoughts.length}} of {{searchSet.length}} Comments</div>
   </div>
+
   <div class="comments">
-    <div class="count">{{thoughts.length}} Comments</div>
-    <ng-container *ngFor="let thought of thoughts">
+    <ng-container *ngFor="let thought of loadedThoughts">
       <section *ngIf="thought.comment"> 
-        <h4>{{thought.author || 'Anonymous'}}</h4>
-        <p>{{thought.comment}}</p>
+        <h4 [innerHTML]="thought.author || 'Anonymous'"></h4>
+        <p [innerHTML]="thought.comment"></p>
         <div class="break"></div>
       </section>
       <div class="image-wrapper" *ngIf="thought.img">
@@ -18,6 +21,12 @@
       </div>
     </ng-container>
   </div>
-  <br>
-  <br>
+
+  <div class="button">
+    <div class="info">{{loadedThoughts.length}} of {{searchSet.length}} Comments</div>
+    <button (click)="loadMore()" *ngIf="searchSet.length > loadAmount && loadedThoughts.length !== searchSet.length">
+      Load {{searchSet.length - loadedThoughts.length < loadAmount ? searchSet.length - loadedThoughts.length : loadAmount}} More
+    </button>
+  </div>
+
 </div>

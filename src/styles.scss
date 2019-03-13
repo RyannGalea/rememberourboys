@@ -39,6 +39,18 @@ body {
   text-align: center;
 }
 
+.search {
+  width: 100%;
+  height: 35px;
+  border: none;
+  border-radius: 4px;
+  outline: 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 20px 0 20px;
+}
+
 .image-wrapper {
   // padding: 30px 0;
   width: 80%;
@@ -54,12 +66,37 @@ img {
 .comments {
   width: 80%;
   height: 100%;
-  margin: auto;
+  margin: 0 auto 30px;
   color: #C9CABA;
+}
+
+.button {
+  width: 80%;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+button {
+  width: 200px;
+  height: 30px;
+  outline: 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .count {
   float: right;
+}
+
+.info {
+  margin: 15px 0;
+  color: #C9CABA;
+  font-size: 13px;
+}
+
+section h4 {
+  text-transform: capitalize;
 }
 
 section p {
@@ -67,6 +104,13 @@ section p {
   white-space: pre-line;
   text-overflow: ellipsis;
   overflow: auto;
+}
+
+section span {
+  padding: 0px 6px;
+  background-color: #00000085;
+  border-radius: 4px;
+  text-transform: uppercase;
 }
 
 h4 {
