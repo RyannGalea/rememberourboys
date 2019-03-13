@@ -28,7 +28,8 @@ body {
 }
 
 .rip {
-  border: 10px solid white;
+  border: 7px solid white;
+  box-sizing: border-box;
 }
 
 .images {
@@ -64,6 +65,8 @@ img {
 section p {
   font-size: 16px;
   white-space: pre-line;
+  text-overflow: ellipsis;
+  overflow: auto;
 }
 
 h4 {

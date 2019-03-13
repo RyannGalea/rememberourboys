@@ -1,5 +1,9 @@
 export default [
   {
+    "author": "Ryann Galea",
+    "comment": "David was one of the best people in the world, his personality was one of a kind, his joyful nature and kindness was always loved and was just what we had come to expect from Dave.. he was the most amazing person i have come to love in my life thus far and as i sit here cry i wonder if this could be all true or just a bad bad dream.. David Andrews was traveling over razorback from camden at around 9.30pm Friday the 29th of October 2004, were he lost control of his car on a bad stretch of road and rolled out of control into a enbankment. on this night he lost his life.. its just not fair. hearing this is truly the worst moment in my life, i now sit and wonder how this could happen to such a great person.. it has made me realise how fragile life is and to make the most of the people around you while you can. My thoughts are with his family and the people around him, Dave was too young to die and didnt deserve this... You will always be part of the crew and I know you will always be there watching upon us...  im sure i speak for absolutely evryone when i say we will always miss you dave and will always love you with all our hearts.. You will be truly missed by everyone! especially me.\n\n Ride on David Neil Andrews.. You Will Never Be Forgotten\nNarz"
+  },
+  {
     "author": "William \" wil \" Carraro",
     "comment": "Dave andrews you are the one guy that you could always count on for a laugh and a good time ...i know every member of the dilly crew will sadly miss you and will make sure you are never forgotten by anyone .......... i give my deepest regards to daves family and all you guys that where real close friends of dave........your the best dude"
   },
